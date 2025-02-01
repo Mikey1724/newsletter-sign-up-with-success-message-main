@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(234, 29%, 20%);
+    font-family: 'Roboto',sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.b0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+#b1{
+    padding: 10px 17.5px 12.5px 17.5px;
+    width: 600px;
+    height: 420px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+ul li{
+    list-style: url(icon-list.svg);
+    padding: 0 0 0 5px;
+    font-size: 11px;
+}
+label{
+    display: block;
+}
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#err{
+    text-align: right;
+    color: hsl(4, 100%, 67%);
+}
+.act0{
+    margin: -15px 0 0 0;
+}
+.act0 p{
+    font-size: 12px;
+} 
+.act0 label{
+    font-size: 10px;
+}
+
+#soc1{
+    margin: 0 0 0 -10px;
+}
+#soc0{
+    display: none;
+}
+#mail{
+    margin: 5px 0 10px 0;
+    outline: none;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+
+#acpt{
+    background-color: hsl(235, 18%, 26%);
+    text-align: center;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 278px;
+    height: 35px;
+    border: none;
+}
+#acpt:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+    transition: 0.5s;
+}
+.leg{
+    font-size: 11px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------SECOND PAGE-----------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+
+#c1 img{
+    width: 50px;
+    height: auto;
+}
+#c1{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10%;
+    width: 280px;
+    height: 330px;
+    padding: 30px;
+}
+#c1 h1{
+    font-size: 40px;
+}
+#c1 p{
+    font-size: 13px;
+    margin: -5px 0 20px 0;
+}
+#c1 button{
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+}
+#c1 button:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:645px) {
+    body{
+        background-color: white;
+    }
+    #soc0{
+        display: block;
+        width: 100vw;
+    }
+    #soc1{
+        display: none;
+    }
+    #b1{
+        width: 100vw;
+        height: auto;
+        border-radius: 0%;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .b0{
+        margin-top: 0;
+    }
+    h1{
+        text-align: left;
+    }
+    #mail{
+        width: 90vw;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    #acpt{
+        width: 94vw;
+        height: 45px;
+    }
+    .leg{
+        margin: 30px 0px 20px 0px;
+    }
+    .act0 p , ul li{
+        font-weight: 600;
+        font-size: 15px;
+        color:  hsl(231, 7%, 60%);
+    }
+    ul li{
+        margin-top: 10px;
+    }
+    .label{
+        margin-top: 50px;
+    }
+    .real0{
+        padding: 0px 25px 0px 25px;
+    }
+    #c1 img{
+        width: 70px;
+        height: auto;
+    }
+    #c1{
+        margin-top: 25vw;
+        width: 100vw;
+        height: auto;
+    }
+    #c1 p{
+        font-size: 16px;
+    }
+    #c1 button{
+        width: 90vw;
+        height: 50px;
+        margin-top: 80vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #mail{
+        width: 79.5vw;
+        height: 30px;
+    }
+    #acpt{
+        width: 86vw;
+        height: 45px;
+    }
+    .leg{
+        margin: 20px 0 0 0;
+    }
+    
+}
